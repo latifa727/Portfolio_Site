@@ -1,0 +1,155 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  display: none;
+}
+
+.hero, .top-news, .scores, .weather, .recent-news {
+  order: 10;
+}
+
+
+@media screen and (max-width: 349px) {
+  .header__logo {
+    height: 30px;
+    margin-right: 0.5em;
+  }
+  .header_title {
+    margin-left: 0;
+    font-size: 2em;
+    vertical-align: bottom; 
+  }
+  
+  .header_sub_title {
+  font-size: 0.5em;
+  top:40px;
+}
+  .main_img {
+	width:100%;
+	margin-top:-180px;
+	height:200px;
+  }
+  .featured_title {
+   margin-top:20px;
+  font-size: 0.7em; 
+}
+ .pic_li {
+	width:33%;
+	height:100px;
+  }
+  .sub_img {
+	width:100%;
+	height:100px;
+  }
+  
+
+.img_name {
+  font-size: 0.5em;  
+ 
+}
+.img_url {
+  font-size: 0.3em;  
+ 
+}
+}
+@media screen and (min-width: 350px) {
+  .header__logo {
+    height: 48px;
+    margin-right: 0.5em;
+  }
+  .header_title {
+    margin-left: 0;
+    font-size: 2em;
+    vertical-align: bottom; 
+  }
+  
+  .header_sub_title {
+  font-size: 0.5em;
+  top:40px;
+}
+  .main_img {
+	width:100%;
+	margin-top:-180px;
+	height:200px;
+  }
+  .featured_title {
+   margin-top:20px;
+  font-size: 1em; 
+}
+ .pic_li {
+	width:33%;
+	height:100px;
+  }
+  .sub_img {
+	width:100%;
+	height:100px;
+  }
+  
+
+.img_name {
+  font-size: 1em;  
+ 
+}
+.img_url {
+  font-size: 0.5em;  
+ 
+}
+}
+@media screen and (min-width: 750px) {
+  .header__logo {
+    height: 75px;
+    margin-right: 0.5em;
+  }
+  .header_title {
+    margin-left: 0;
+    font-size: 3em;
+    vertical-align: bottom; 
+  }
+  
+  .header_sub_title {
+  font-size: 1em;
+  top:50px;
+}
+  .main_img {
+	width:100%;
+	margin-top:-180px;
+	height:300px;
+  }
+  .featured_title {
+   margin-top:20px;
+  font-size: 1.5em; 
+}
+ .pic_li {
+	width:33%;
+	height:150px;
+  }
+  .sub_img {
+	width:100%;
+	height:150px;
+  }
+  
+
+.img_name {
+  font-size: 1.5em;  
+ 
+}
+.img_url {
+  font-size: 1em;  
+ 
+}
+
+
+}
+
+@media screen and (min-width: 850px) {
+  main, .header__inner, .nav, .content {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
